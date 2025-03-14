@@ -1,7 +1,11 @@
 Débuter un projet Django 
 
 # Étape 1: Création du projet Django
-django-admin startproject nom_projet // python -m django startproject Test_app
+# Si vous avez django-admininstallé globalement, vous pouvez utiliser :
+django-admin startproject nom_projet 
+
+# Si vous utilisez un environnement virtuel ou souhaitez spécifier directement le module Python
+python -m django startproject Test_app
 
 cd Test_app
 
